@@ -84,3 +84,17 @@ $text-transforms: (
     text-transform: $value;
   }
 }
+
+$text-align: (
+  'l': left,
+  'r': right,
+  'c': center,
+  'j': justify,
+  'i': initial
+);
+
+@each $name, $value in $text-align {
+  .ta-#{$name} {
+    text-align: $value;
+  }
+}
