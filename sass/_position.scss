@@ -1,0 +1,32 @@
+$positions: (
+  'static': static,
+  'a': absolute,
+  'f': fixed,
+  'r': relative,
+  'sticky': sticky,
+  'i': initial
+);
+
+@each $name, $value in $positions {
+  .p-#{$name} {
+    position: $value;
+  }
+
+  @include breakpoint-sm {
+    .p-sm-#{$name} {
+      position: $value !important;
+    }
+  }
+
+  @include breakpoint-md {
+    .p-md-#{$name} {
+      position: $value !important;
+    }
+  }
+
+  @include breakpoint-lg {
+    .p-lg-#{$name} {
+      position: $value !important;
+    }
+  }
+}
