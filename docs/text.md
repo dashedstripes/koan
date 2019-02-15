@@ -37,4 +37,9 @@
 
 .ta-c === text-align: center
 
+/* Font Families */
+.ff-{sans-serif | serif | custom}
+
+.ff-serif === font-family: serif
+
 ```
