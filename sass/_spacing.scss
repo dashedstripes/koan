@@ -42,6 +42,108 @@ $spacing: (
     margin-top: $value;
     margin-bottom: $value;
   }
+
+  @include breakpoint-sm {
+
+    .m-sm-#{$name} {
+      margin: $value;
+    }
+  
+    .mt-sm-#{$name} {
+      margin-top: $value;
+    }
+  
+    .mb-sm-#{$name} {
+      margin-bottom: $value;
+    }
+  
+    .ml-sm-#{$name} {
+      margin-left: $value;
+    }
+  
+    .mr-sm-#{$name} {
+      margin-right: $value;
+    }
+  
+    .mx-sm-#{$name} {
+      margin-left: $value;
+      margin-right: $value;
+    }
+  
+    .my-sm-#{$name} {
+      margin-top: $value;
+      margin-bottom: $value;
+    }
+
+  }
+
+  @include breakpoint-md {
+
+    .m-md-#{$name} {
+      margin: $value;
+    }
+  
+    .mt-md-#{$name} {
+      margin-top: $value;
+    }
+  
+    .mb-md-#{$name} {
+      margin-bottom: $value;
+    }
+  
+    .ml-md-#{$name} {
+      margin-left: $value;
+    }
+  
+    .mr-md-#{$name} {
+      margin-right: $value;
+    }
+  
+    .mx-md-#{$name} {
+      margin-left: $value;
+      margin-right: $value;
+    }
+  
+    .my-md-#{$name} {
+      margin-top: $value;
+      margin-bottom: $value;
+    }
+
+  }
+
+  @include breakpoint-lg {
+
+    .m-lg-#{$name} {
+      margin: $value;
+    }
+  
+    .mt-lg-#{$name} {
+      margin-top: $value;
+    }
+  
+    .mb-lg-#{$name} {
+      margin-bottom: $value;
+    }
+  
+    .ml-lg-#{$name} {
+      margin-left: $value;
+    }
+  
+    .mr-lg-#{$name} {
+      margin-right: $value;
+    }
+  
+    .mx-lg-#{$name} {
+      margin-left: $value;
+      margin-right: $value;
+    }
+  
+    .my-lg-#{$name} {
+      margin-top: $value;
+      margin-bottom: $value;
+    }
+
+  }
 }
 
 @each $name, $value in $spacing {
@@ -74,4 +176,107 @@ $spacing: (
     padding-top: $value;
     padding-bottom: $value;
   }
+
+  @include breakpoint-sm {
+
+    .p-sm-#{$name} {
+      padding: $value;
+    }
+  
+    .pt-sm-#{$name} {
+      padding-top: $value;
+    }
+  
+    .pb-sm-#{$name} {
+      padding-bottom: $value;
+    }
+  
+    .pl-sm-#{$name} {
+      padding-left: $value;
+    }
+  
+    .pr-sm-#{$name} {
+      padding-right: $value;
+    }
+  
+    .px-sm-#{$name} {
+      padding-left: $value;
+      padding-right: $value;
+    }
+  
+    .py-sm-#{$name} {
+      padding-top: $value;
+      padding-bottom: $value;
+    }
+
+  }
+
+  @include breakpoint-md {
+
+    .p-md-#{$name} {
+      padding: $value;
+    }
+  
+    .pt-md-#{$name} {
+      padding-top: $value;
+    }
+  
+    .pb-md-#{$name} {
+      padding-bottom: $value;
+    }
+  
+    .pl-md-#{$name} {
+      padding-left: $value;
+    }
+  
+    .pr-md-#{$name} {
+      padding-right: $value;
+    }
+  
+    .px-md-#{$name} {
+      padding-left: $value;
+      padding-right: $value;
+    }
+  
+    .py-md-#{$name} {
+      padding-top: $value;
+      padding-bottom: $value;
+    }
+
+  }
+
+  @include breakpoint-lg {
+
+    .p-lg-#{$name} {
+      padding: $value;
+    }
+  
+    .pt-lg-#{$name} {
+      padding-top: $value;
+    }
+  
+    .pb-lg-#{$name} {
+      padding-bottom: $value;
+    }
+  
+    .pl-lg-#{$name} {
+      padding-left: $value;
+    }
+  
+    .pr-lg-#{$name} {
+      padding-right: $value;
+    }
+  
+    .px-lg-#{$name} {
+      padding-left: $value;
+      padding-right: $value;
+    }
+  
+    .py-lg-#{$name} {
+      padding-top: $value;
+      padding-bottom: $value;
+    }
+
+  }
+
 }
