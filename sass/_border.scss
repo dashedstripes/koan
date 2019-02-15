@@ -16,7 +16,7 @@ $border-styles: (
   }
 }
 
-$border-sizes: (
+$border-width: (
   '1': 1px,
   '2': 2px,
   '3': 3px,
@@ -29,7 +29,7 @@ $border-sizes: (
   '10': 10px
 );
 
-@each $name, $value in $border-sizes {
+@each $name, $value in $border-width {
   .bw-#{$name} {
     border-width: $value
   }
