@@ -17,6 +17,24 @@ $text-sizes: (
   .fz-#{$name} {
     font-size: $value;
   }
+
+  @include breakpoint-sm {
+    .fz-sm-#{$name} {
+      font-size: $value;
+    }
+  }
+
+  @include breakpoint-md {
+    .fz-md-#{$name} {
+      font-size: $value;
+    }
+  }
+
+  @include breakpoint-lg {
+    .fz-lg-#{$name} {
+      font-size: $value;
+    }
+  }
 }
 
 $font-weights: (

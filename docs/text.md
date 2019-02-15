@@ -3,10 +3,11 @@
 ```css
 
 /* Font Size */
-.fz-{05 | 075 | 1-8 | i (initial)}
+.fz-{breakpoint}-{font size}
+.fz-{sm (small) | md (medium) | lg (large) | blank)-{05 | 075 | 1-8 | i (initial)}
 
 .fz-4 === font-size: 4rem
-
+.fz-sm-4 === font-size: 4rem /* (only on small screens) */
 
 /* Font Weight */
 .fw-{b (bold) | n (normal) | l (lighter)}
