@@ -11,6 +11,8 @@
 .mx-1 === margin-left: 1rem; margin-right: 1rem;
 .my-2 === margin-top: 1rem; margin-bottom: 1rem;
 
+.my-sm-2 === margin-top: 1rem; margin-bottom: 1rem; /* (only on small screens) */
+
 ```
 
 ### Padding
@@ -23,5 +25,7 @@
 .pl-025 === padding-left: 0.25rem
 .px-1 === padding-left: 1rem; padding-right: 1rem;
 .py-2 === padding-top: 1rem; padding-bottom: 1rem;
+
+.py-sm-2 === padding-top: 1rem; padding-bottom: 1rem; /* (only on small screens) */
 
 ```
