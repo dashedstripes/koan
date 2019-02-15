@@ -46,33 +46,33 @@ $spacing: (
   @include breakpoint-sm {
 
     .m-sm-#{$name} {
-      margin: $value;
+      margin: $value!important;
     }
   
     .mt-sm-#{$name} {
-      margin-top: $value;
+      margin-top: $value!important;
     }
   
     .mb-sm-#{$name} {
-      margin-bottom: $value;
+      margin-bottom: $value!important;
     }
   
     .ml-sm-#{$name} {
-      margin-left: $value;
+      margin-left: $value!important;
     }
   
     .mr-sm-#{$name} {
-      margin-right: $value;
+      margin-right: $value!important;
     }
   
     .mx-sm-#{$name} {
-      margin-left: $value;
-      margin-right: $value;
+      margin-left: $value!important;
+      margin-right: $value!important;
     }
   
     .my-sm-#{$name} {
-      margin-top: $value;
-      margin-bottom: $value;
+      margin-top: $value!important;
+      margin-bottom: $value!important;
     }
 
   }
@@ -80,33 +80,33 @@ $spacing: (
   @include breakpoint-md {
 
     .m-md-#{$name} {
-      margin: $value;
+      margin: $value!important;
     }
   
     .mt-md-#{$name} {
-      margin-top: $value;
+      margin-top: $value!important;
     }
   
     .mb-md-#{$name} {
-      margin-bottom: $value;
+      margin-bottom: $value!important;
     }
   
     .ml-md-#{$name} {
-      margin-left: $value;
+      margin-left: $value!important;
     }
   
     .mr-md-#{$name} {
-      margin-right: $value;
+      margin-right: $value!important;
     }
   
     .mx-md-#{$name} {
-      margin-left: $value;
-      margin-right: $value;
+      margin-left: $value!important;
+      margin-right: $value!important;
     }
   
     .my-md-#{$name} {
-      margin-top: $value;
-      margin-bottom: $value;
+      margin-top: $value!important;
+      margin-bottom: $value!important;
     }
 
   }
@@ -114,33 +114,33 @@ $spacing: (
   @include breakpoint-lg {
 
     .m-lg-#{$name} {
-      margin: $value;
+      margin: $value!important;
     }
   
     .mt-lg-#{$name} {
-      margin-top: $value;
+      margin-top: $value!important;
     }
   
     .mb-lg-#{$name} {
-      margin-bottom: $value;
+      margin-bottom: $value!important;
     }
   
     .ml-lg-#{$name} {
-      margin-left: $value;
+      margin-left: $value!important;
     }
   
     .mr-lg-#{$name} {
-      margin-right: $value;
+      margin-right: $value!important;
     }
   
     .mx-lg-#{$name} {
-      margin-left: $value;
-      margin-right: $value;
+      margin-left: $value!important;
+      margin-right: $value!important;
     }
   
     .my-lg-#{$name} {
-      margin-top: $value;
-      margin-bottom: $value;
+      margin-top: $value!important;
+      margin-bottom: $value!important;
     }
 
   }
@@ -180,33 +180,33 @@ $spacing: (
   @include breakpoint-sm {
 
     .p-sm-#{$name} {
-      padding: $value;
+      padding: $value!important;
     }
   
     .pt-sm-#{$name} {
-      padding-top: $value;
+      padding-top: $value!important;
     }
   
     .pb-sm-#{$name} {
-      padding-bottom: $value;
+      padding-bottom: $value!important;
     }
   
     .pl-sm-#{$name} {
-      padding-left: $value;
+      padding-left: $value!important;
     }
   
     .pr-sm-#{$name} {
-      padding-right: $value;
+      padding-right: $value!important;
     }
   
     .px-sm-#{$name} {
-      padding-left: $value;
-      padding-right: $value;
+      padding-left: $value!important;
+      padding-right: $value!important;
     }
   
     .py-sm-#{$name} {
-      padding-top: $value;
-      padding-bottom: $value;
+      padding-top: $value!important;
+      padding-bottom: $value!important;
     }
 
   }
@@ -214,33 +214,33 @@ $spacing: (
   @include breakpoint-md {
 
     .p-md-#{$name} {
-      padding: $value;
+      padding: $value!important;
     }
   
     .pt-md-#{$name} {
-      padding-top: $value;
+      padding-top: $value!important;
     }
   
     .pb-md-#{$name} {
-      padding-bottom: $value;
+      padding-bottom: $value!important;
     }
   
     .pl-md-#{$name} {
-      padding-left: $value;
+      padding-left: $value!important;
     }
   
     .pr-md-#{$name} {
-      padding-right: $value;
+      padding-right: $value!important;
     }
   
     .px-md-#{$name} {
-      padding-left: $value;
-      padding-right: $value;
+      padding-left: $value!important;
+      padding-right: $value!important;
     }
   
     .py-md-#{$name} {
-      padding-top: $value;
-      padding-bottom: $value;
+      padding-top: $value!important;
+      padding-bottom: $value!important;
     }
 
   }
@@ -248,33 +248,33 @@ $spacing: (
   @include breakpoint-lg {
 
     .p-lg-#{$name} {
-      padding: $value;
+      padding: $value!important;
     }
   
     .pt-lg-#{$name} {
-      padding-top: $value;
+      padding-top: $value!important;
     }
   
     .pb-lg-#{$name} {
-      padding-bottom: $value;
+      padding-bottom: $value!important;
     }
   
     .pl-lg-#{$name} {
-      padding-left: $value;
+      padding-left: $value!important;
     }
   
     .pr-lg-#{$name} {
-      padding-right: $value;
+      padding-right: $value!important;
     }
   
     .px-lg-#{$name} {
-      padding-left: $value;
-      padding-right: $value;
+      padding-left: $value!important;
+      padding-right: $value!important;
     }
   
     .py-lg-#{$name} {
-      padding-top: $value;
-      padding-bottom: $value;
+      padding-top: $value!important;
+      padding-bottom: $value!important;
     }
 
   }

@@ -20,19 +20,19 @@ $text-sizes: (
 
   @include breakpoint-sm {
     .fz-sm-#{$name} {
-      font-size: $value;
+      font-size: $value!important;
     }
   }
 
   @include breakpoint-md {
     .fz-md-#{$name} {
-      font-size: $value;
+      font-size: $value!important;
     }
   }
 
   @include breakpoint-lg {
     .fz-lg-#{$name} {
-      font-size: $value;
+      font-size: $value!important;
     }
   }
 }
@@ -96,5 +96,23 @@ $text-align: (
 @each $name, $value in $text-align {
   .ta-#{$name} {
     text-align: $value;
+  }
+
+  @include breakpoint-sm {
+    .ta-sm-#{$name} {
+      text-align: $value!important;
+    }
+  }
+
+  @include breakpoint-md {
+    .ta-md-#{$name} {
+      text-align: $value!important;
+    }
+  }
+
+  @include breakpoint-lg {
+    .ta-lg-#{$name} {
+      text-align: $value!important;
+    }
   }
 }
