@@ -32,4 +32,9 @@
 
 .tt-u === text-transform: uppercase
 
+/* Text Align */
+.ta-{l (left) | r (right) | c (center) | j (justify) | i (initial)}
+
+.ta-c === text-align: center
+
 ```
