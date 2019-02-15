@@ -1,0 +1,43 @@
+$outline-styles: (
+  'n': none,
+  'h': hidden,
+  'd': dotted,
+  'da': dashed,
+  's': solid,
+  'do': double,
+  'g': groove,
+  'r': ridge,
+  'i': initial
+);
+
+@each $name, $value in $outline-styles {
+  .os-#{$name} {
+    outline-style: $value
+  }
+}
+
+$outline-sizes: (
+  '1': 1px,
+  '2': 2px,
+  '3': 3px,
+  '4': 4px,
+  '5': 5px,
+  '6': 6px,
+  '7': 7px,
+  '8': 8px,
+  '9': 9px,
+  '10': 10px
+);
+
+@each $name, $value in $outline-sizes {
+  .ow-#{$name} {
+    outline-width: $value
+  }
+}
+
+// $colors is referenced from sass/_variables.scss
+@each $name, $value in $colors {
+  .oc-#{$name} {
+    outline-color: $value
+  }
+}
