@@ -1,0 +1,34 @@
+$displays: (
+  'i': inline,
+  'b': block,
+  'f': flex,
+  'g': grid,
+  'ib': inline-block,
+  't': table,
+  'tc': table-cell,
+  'n': none
+);
+
+@each $name, $value in $displays {
+  .d-#{$name} {
+    display: $value;
+  }
+
+  @include breakpoint-sm {
+    .d-sm-#{$name} {
+      display: $value !important;
+    }
+  }
+
+  @include breakpoint-md {
+    .d-md-#{$name} {
+      display: $value !important;
+    }
+  }
+
+  @include breakpoint-lg {
+    .d-lg-#{$name} {
+      display: $value !important;
+    }
+  }
+}
