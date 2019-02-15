@@ -118,7 +118,9 @@ $text-align: (
 }
 
 $font-families: (
-  'system': (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol")
+  'sans-serif': (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"),
+  'serif': (serif),
+  'custom': $custom-font
 );
 
 @each $name, $value in $font-families {
