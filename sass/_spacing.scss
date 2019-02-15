@@ -1,0 +1,77 @@
+$spacing: (
+  '025': 0.25rem,
+  '05': 0.5rem,
+  '075': 0.75rem,
+  '1': 1rem,
+  '2': 2rem,
+  '3': 3rem,
+  '4': 4rem,
+  '5': 5rem,
+  '6': 6rem,
+  '7': 7rem,
+  '8': 8rem
+);
+
+@each $name, $value in $spacing {
+  .m-#{$name} {
+    margin: $value;
+  }
+
+  .mt-#{$name} {
+    margin-top: $value;
+  }
+
+  .mb-#{$name} {
+    margin-bottom: $value;
+  }
+
+  .ml-#{$name} {
+    margin-left: $value;
+  }
+
+  .mr-#{$name} {
+    margin-right: $value;
+  }
+
+  .mx-#{$name} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+
+  .my-#{$name} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}
+
+@each $name, $value in $spacing {
+  .p-#{$name} {
+    padding: $value;
+  }
+
+  .pt-#{$name} {
+    padding-top: $value;
+  }
+
+  .pb-#{$name} {
+    padding-bottom: $value;
+  }
+
+  .pl-#{$name} {
+    padding-left: $value;
+  }
+
+  .pr-#{$name} {
+    padding-right: $value;
+  }
+
+  .px-#{$name} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+
+  .py-#{$name} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+}
