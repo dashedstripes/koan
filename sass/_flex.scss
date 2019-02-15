@@ -1,0 +1,27 @@
+$flex-wraps: (
+  'w': wrap,
+  'nw': nowrap,
+  'wr': wrap-reverse,
+  'i': initial
+);
+
+@each $name, $value in $flex-wraps {
+  .fw-#{$name} {
+    flex-wrap: $value;
+  }
+}
+
+$justify-content: (
+  'fs': flex-start,
+  'fe': flex-end,
+  'c': center,
+  'sb': space-between,
+  'sa': space-around,
+  'i': initial
+);
+
+@each $name, $value in $justify-content {
+  .jc-#{$name} {
+    justify-content: $value;
+  }
+}
