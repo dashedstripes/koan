@@ -1,0 +1,68 @@
+$text-sizes: (
+  '05': 0.5rem,
+  '075': 0.75rem,
+  '1': 1rem,
+  '15': 1.5rem,
+  '2': 2rem,
+  '3': 3rem,
+  '4': 4rem,
+  '5': 5rem,
+  '6': 6rem,
+  '7': 7rem,
+  '8': 8rem,
+  'i': initial
+);
+
+@each $name, $value in $text-sizes {
+  .fz-#{$name} {
+    font-size: $value;
+  }
+}
+
+$font-weights: (
+  'b': bold,
+  'n': normal,
+  'l': lighter
+);
+
+@each $name, $value in $font-weights {
+  .fw-#{$name} {
+    font-weight: $value;
+  }
+}
+
+$font-styles: (
+  'i': italic,
+  'n': normal,
+  'o': oblique
+);
+
+@each $name, $value in $font-styles {
+  .fs-#{$name} {
+    font-style: $value;
+  }
+}
+
+$text-decorations: (
+  'n': none,
+  'u': underline,
+  'lt': line-through
+);
+
+@each $name, $value in $text-decorations {
+  .td-#{$name} {
+    text-decoration: $value;
+  }
+}
+
+$text-transforms: (
+  'u': uppercase,
+  'l': lowercase,
+  'c': capitalize
+);
+
+@each $name, $value in $text-transforms {
+  .tt-#{$name} {
+    text-transform: $value;
+  }
+}
