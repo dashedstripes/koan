@@ -16,7 +16,7 @@ $outline-styles: (
   }
 }
 
-$outline-sizes: (
+$outline-width: (
   '1': 1px,
   '2': 2px,
   '3': 3px,
@@ -29,7 +29,7 @@ $outline-sizes: (
   '10': 10px
 );
 
-@each $name, $value in $outline-sizes {
+@each $name, $value in $outline-width {
   .ow-#{$name} {
     outline-width: $value
   }
