@@ -1,0 +1,11 @@
+$list-styles: (
+  'n': none,
+  'd': disc,
+  'c': circle
+);
+
+@each $name, $value in $list-styles {
+  .ls-#{$name} {
+    list-style: $value;
+  }
+}
