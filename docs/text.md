@@ -7,20 +7,32 @@
 
 .fz-4 === font-size: 4rem
 
+
+
+
 /* Font Weight */
 .fw-{b (bold) | n (normal) | l (lighter)}
 
 .fw-b === font-weight: bold
+
+
+
 
 /* Font Style */
 .fs-{i (italic) | n (normal) | o (oblique)}
 
 .fs-i === font-style: italic
 
+
+
+
 /* Text Decoration */
 .td-{n (normal) | u (underline) | lt (line-through)}
 
 .td-u === text-decoration: underline
+
+
+
 
 /* Text Transform */
 .tt-{u (uppercase) | l (lowercase) | c (capitalize)}
