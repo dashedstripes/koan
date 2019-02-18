@@ -17,4 +17,9 @@
 
 .ai-c === align-items: center
 
+/* Flex Directions */
+.fd-{r (row) | rr (row-reverse) | c (column) | cr (column-reverse) | i (initial)}
+
+.fd-rr === flex-direction: row-reverse
+
 ```
