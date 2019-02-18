@@ -40,3 +40,17 @@ $align-items: (
     align-items: $value;
   }
 }
+
+$flex-directions: (
+  'r': row,
+  'rr': row-reverse,
+  'c': column,
+  'cr': column-reverse,
+  'i': initial
+);
+
+@each $name, $value in $flex-directions {
+  .fd-#{$name} {
+    flex-direction: $value;
+  }
+}
