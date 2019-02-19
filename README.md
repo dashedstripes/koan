@@ -1,4 +1,4 @@
-![KOAN](images/logo.svg?raw=true "KOAN")
+![KOAN](images/logo.svg)
 
 # Koan
 
