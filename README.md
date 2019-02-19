@@ -1,6 +1,4 @@
-![KOAN](images/logo.svg)
-
-# Koan
+# KOAN
 
 An atomic SASS framework.
 
