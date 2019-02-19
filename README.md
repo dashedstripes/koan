@@ -1,7 +1,9 @@
+![KOAN](images/logo.svg?raw=true "KOAN")
+
 # Koan
 
 An atomic SASS framework.
 
-## How to use
+## Getting Started
 
-Just download this repo and add contents of `sass` to your application. Look through `/docs` for library usage.
+Just download this repo and copy the  `sass` folder to your app directory. Look through `/docs` for library usage.
