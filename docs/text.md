@@ -4,7 +4,7 @@
 
 /* Font Size */
 .fz-{breakpoint}-{font size}
-.fz-{sm (small) | md (medium) | lg (large) | blank)-{05 | 075 | 1-8 | i (initial)}
+.fz-{sm (small) | md (medium) | lg (large) | blank)-{025 | 05 | 075 | 1 | 125 | 15 | 175 | 2-8 | i (initial)}
 
 .fz-4 === font-size: 4rem
 .fz-sm-4 === font-size: 4rem /* (only on small screens) */
