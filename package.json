@@ -1,6 +1,6 @@
 {
   "name": "koan-sass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An atomic SASS framework.",
   "main": "sass/koan.scss",
   "directories": {
