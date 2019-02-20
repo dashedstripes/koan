@@ -1,0 +1,24 @@
+{
+  "name": "koan",
+  "version": "1.0.0",
+  "description": "An atomic SASS framework.",
+  "main": "sass/koan.scss",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashedstripes/koan.git"
+  },
+  "keywords": [
+    "sass",
+    "atomic",
+    "css"
+  ],
+  "author": "Adam Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashedstripes/koan/issues"
+  },
+  "homepage": "https://koan.pateo"
+}
