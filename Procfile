@@ -1,2 +1,2 @@
-sass: sass --watch sass:css --style compressed
+sass: sass --watch sass/koan.scss:css/koan.css --style compressed
 server: serve
