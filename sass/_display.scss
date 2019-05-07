@@ -1,7 +1,6 @@
 $displays: (
   'i': inline,
   'b': block,
-  'f': flex,
   'g': grid,
   'ib': inline-block,
   't': table,
@@ -30,5 +29,41 @@ $displays: (
     .d-lg-#{$name} {
       display: $value !important;
     }
+  }
+}
+
+// Flex specific styles, with vendor prefixes
+
+.d-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@include breakpoint-sm {
+  .d-sm-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+
+@include breakpoint-md {
+  .d-md-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+
+@include breakpoint-lg {
+  .d-lg-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
   }
 }
